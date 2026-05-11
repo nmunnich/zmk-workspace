@@ -1,0 +1,5 @@
+ manifest: # Don't add additional remote zmk modules here. Add those in your zmk-config's manifest.
+  self:
+    import: # If you are developing local modules, simply add their west.yml files here.
+      - zmk/app
+      - zmk-config/config

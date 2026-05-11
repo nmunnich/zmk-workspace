@@ -1,0 +1,9 @@
+/zmk
+/zmk-config
+/zmk-docker
+/.west
+/zephyr
+/modules
+/tools
+/bootloader
+/build
