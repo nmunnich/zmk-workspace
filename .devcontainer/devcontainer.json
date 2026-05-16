@@ -1,12 +1,13 @@
 {
   "name": "ZMK Development",
-  "dockerFile": "Dockerfile",
+  "image": "zmk-devcontainer:latest",
   "runArgs": ["--security-opt", "label=disable"],
   "containerEnv": {
     "WORKSPACE_DIR": "${containerWorkspaceFolder}",
     "PROMPT_COMMAND": "history -a"
   },
   "mounts": [
+    "type=volume,source=zmk-nix-store,target=/nix",
     "type=volume,source=zmk-root-user,target=/root",
     "type=volume,source=zmk-config,target=/workspaces/zmk-config",
     "type=volume,source=zmk-modules,target=/workspaces/zmk-modules",
