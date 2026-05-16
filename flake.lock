@@ -3,6 +3,7 @@
     "nix-github-actions": {
       "inputs": {
         "nixpkgs": [
+          "zmk-environments",
           "zephyr-nix",
           "nixpkgs"
         ]
@@ -40,6 +41,7 @@
     "pyproject-nix": {
       "inputs": {
         "nixpkgs": [
+          "zmk-environments",
           "zephyr-nix",
           "nixpkgs"
         ]
@@ -61,13 +63,13 @@
     "root": {
       "inputs": {
         "nixpkgs": "nixpkgs",
-        "zephyr": "zephyr",
-        "zephyr-nix": "zephyr-nix"
+        "zmk-environments": "zmk-environments"
       }
     },
     "uv-python": {
       "inputs": {
         "nixpkgs": [
+          "zmk-environments",
           "zephyr-nix",
           "nixpkgs"
         ]
@@ -107,11 +109,13 @@
       "inputs": {
         "nix-github-actions": "nix-github-actions",
         "nixpkgs": [
+          "zmk-environments",
           "nixpkgs"
         ],
         "pyproject-nix": "pyproject-nix",
         "uv-python": "uv-python",
         "zephyr": [
+          "zmk-environments",
           "zephyr"
         ]
       },
@@ -126,6 +130,28 @@
       "original": {
         "owner": "urob",
         "repo": "zephyr-nix",
+        "type": "github"
+      }
+    },
+    "zmk-environments": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "zephyr": "zephyr",
+        "zephyr-nix": "zephyr-nix"
+      },
+      "locked": {
+        "lastModified": 1778952635,
+        "narHash": "sha256-UVFGIiy1maQ/g57UtgnjkE+9pIxLycGx9T40i/bhEy8=",
+        "owner": "nmunnich",
+        "repo": "zmk-environments",
+        "rev": "219b8b15abdf216b44aa50e7a9d003b49b937fd5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nmunnich",
+        "repo": "zmk-environments",
         "type": "github"
       }
     }
