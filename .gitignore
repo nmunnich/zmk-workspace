@@ -1,6 +1,7 @@
 /zmk
 /zmk-config
 /zmk-docker
+/zmk-nix
 /.west
 /zephyr
 /modules

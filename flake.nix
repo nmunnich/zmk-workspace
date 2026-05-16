@@ -35,6 +35,7 @@
               pkgs.ccache
               pkgs.cmake
               pkgs.dtc
+              pkgs.docker
               pkgs.file
               pkgs.gcc
               pkgs.git
@@ -43,7 +44,7 @@
               pkgs.ninja
               pkgs.openssh
               pkgs.protobuf
-              pkgs.python3Full
+              pkgs.python3
               pkgs.python3Packages.pip
               pkgs.python3Packages.setuptools
               pkgs.python3Packages.wheel
