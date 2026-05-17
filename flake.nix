@@ -16,7 +16,7 @@
     forAllSystems = nixpkgs.lib.genAttrs systems;
     mkDevShell = system: let
       pkgs = nixpkgs.legacyPackages.${system};
-      baseShell = zmk-environments.devShells.${system}.default;
+      baseShell = zmk-environments.devShells.${system}.dev;
 
       # Add workspace-specific tools here.
       extraPackages = [];
