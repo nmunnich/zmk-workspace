@@ -142,11 +142,11 @@
         "zephyr-nix": "zephyr-nix"
       },
       "locked": {
-        "lastModified": 1778968956,
-        "narHash": "sha256-lSt9BFBTRRI4NLvqW/MaW0vpMoVGLAoIxf5eratHvfA=",
+        "lastModified": 1779054236,
+        "narHash": "sha256-iFRxmXtP2lkQwvIAjy4XWVbUa1v0TMqmD24bC36060E=",
         "owner": "nmunnich",
         "repo": "zmk-environments",
-        "rev": "0b701642c7804b598f5a3acc6450fa5be90b549c",
+        "rev": "b6e15b22b03ae34063a821e5fea2700e5d1e5bc1",
         "type": "github"
       },
       "original": {
